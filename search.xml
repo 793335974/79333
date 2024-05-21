@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>vue指令命令</title>
+      <link href="/79333/2024/05/03/vue%E6%8C%87%E4%BB%A4/"/>
+      <url>/79333/2024/05/03/vue%E6%8C%87%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="项目初始化"><a href="#项目初始化" class="headerlink" title="项目初始化"></a>项目初始化</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><h2 id="vue-cli"><a href="#vue-cli" class="headerlink" title="vue cli"></a>vue cli</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i @vue/cli -g</span><br></pre></td></tr></table></figure><h2 id="安装-less-和-less-loader-命令"><a href="#安装-less-和-less-loader-命令" class="headerlink" title="安装 less 和 less-loader 命令"></a>安装 less 和 less-loader 命令</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">npm</span> <span class="selector-tag">install</span> <span class="selector-tag">less</span> <span class="selector-tag">less-loader</span> <span class="selector-tag">--save-dev</span></span><br></pre></td></tr></table></figure><h2 id="vue-cli自定义创建项目-eslint依赖冲突解决方式"><a href="#vue-cli自定义创建项目-eslint依赖冲突解决方式" class="headerlink" title="vue-cli自定义创建项目-eslint依赖冲突解决方式"></a>vue-cli自定义创建项目-eslint依赖冲突解决方式</h2><blockquote><p>降级eslint-plugin-<a href="https://so.csdn.net/so/search?q=vue&spm=1001.2101.3001.7020">vue</a>到@vue&#x2F;eslint-config-standard支持的版本</p><p>参考<a href="https://blog.csdn.net/ioncannontic/article/details/136627999">vue-cli自定义创建项目-eslint依赖冲突解决方式_vue-offical 和eslint冲突-CSDN博客</a></p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install eslint-plugin-vue@^7.0.0</span><br><span class="line"></span><br><span class="line">npm i --registry https://registry.npmmirror.com vant@latest-v2 -S</span><br></pre></td></tr></table></figure><h2 id="ts"><a href="#ts" class="headerlink" title="ts"></a>ts</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g typescript</span><br></pre></td></tr></table></figure><h2 id="路由router"><a href="#路由router" class="headerlink" title="路由router"></a>路由router</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-router@3.6.5</span><br></pre></td></tr></table></figure><h2 id="vuex"><a href="#vuex" class="headerlink" title="vuex"></a>vuex</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i vuex@3</span><br></pre></td></tr></table></figure><h2 id="vent2"><a href="#vent2" class="headerlink" title="vent2"></a>vent2</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Vue 3 项目，安装最新版 Vant：</span><br><span class="line">npm i vant -S</span><br><span class="line"></span><br><span class="line"># Vue 2 项目，安装 Vant 2：</span><br><span class="line">npm i vant@latest-v2 -S</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+            <tag> vue </tag>
+            
+            <tag> 指令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css</title>
       <link href="/79333/2024/05/03/build%20css/"/>
       <url>/79333/2024/05/03/build%20css/</url>
@@ -21,29 +44,6 @@
         <tags>
             
             <tag> 编程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vue指令命令</title>
-      <link href="/79333/2024/05/03/vue%E6%8C%87%E4%BB%A4/"/>
-      <url>/79333/2024/05/03/vue%E6%8C%87%E4%BB%A4/</url>
-      
-        <content type="html"><![CDATA[<h2 id="项目初始化"><a href="#项目初始化" class="headerlink" title="项目初始化"></a>项目初始化</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><h2 id="vue-cli"><a href="#vue-cli" class="headerlink" title="vue cli"></a>vue cli</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i @vue/cli -g</span><br></pre></td></tr></table></figure><h2 id="安装-less-和-less-loader-命令"><a href="#安装-less-和-less-loader-命令" class="headerlink" title="安装 less 和 less-loader 命令"></a>安装 less 和 less-loader 命令</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">npm</span> <span class="selector-tag">install</span> <span class="selector-tag">less</span> <span class="selector-tag">less-loader</span> <span class="selector-tag">--save-dev</span></span><br></pre></td></tr></table></figure><h2 id="vue-cli自定义创建项目-eslint依赖冲突解决方式"><a href="#vue-cli自定义创建项目-eslint依赖冲突解决方式" class="headerlink" title="vue-cli自定义创建项目-eslint依赖冲突解决方式"></a>vue-cli自定义创建项目-eslint依赖冲突解决方式</h2><blockquote><p>降级eslint-plugin-<a href="https://so.csdn.net/so/search?q=vue&spm=1001.2101.3001.7020">vue</a>到@vue&#x2F;eslint-config-standard支持的版本</p><p>参考<a href="https://blog.csdn.net/ioncannontic/article/details/136627999">vue-cli自定义创建项目-eslint依赖冲突解决方式_vue-offical 和eslint冲突-CSDN博客</a></p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install eslint-plugin-vue@^7.0.0</span><br><span class="line"></span><br><span class="line">npm i --registry https://registry.npmmirror.com vant@latest-v2 -S</span><br></pre></td></tr></table></figure><h2 id="ts"><a href="#ts" class="headerlink" title="ts"></a>ts</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g typescript</span><br></pre></td></tr></table></figure><h2 id="路由router"><a href="#路由router" class="headerlink" title="路由router"></a>路由router</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-router@3.6.5</span><br></pre></td></tr></table></figure><h2 id="vuex"><a href="#vuex" class="headerlink" title="vuex"></a>vuex</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i vuex@3</span><br></pre></td></tr></table></figure><h2 id="vent2"><a href="#vent2" class="headerlink" title="vent2"></a>vent2</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Vue 3 项目，安装最新版 Vant：</span><br><span class="line">npm i vant -S</span><br><span class="line"></span><br><span class="line"># Vue 2 项目，安装 Vant 2：</span><br><span class="line">npm i vant@latest-v2 -S</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 编程 </tag>
-            
-            <tag> vue </tag>
-            
-            <tag> 指令 </tag>
             
         </tags>
       
